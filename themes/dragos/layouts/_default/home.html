@@ -1,7 +1,40 @@
 {{ define "main" }}
+<div class="banner">
+    <div class="container py-5">
+        <div class="text">
+            <p>Dragoslarmen övervakar och larmar när avvikelser i skyddsventilationen inträffar i dragskåp, dragbänkar, kemikalieskåp, ren-rum och andra typer av ventilationskanaler vid kemikaliehantering.</p>
+        </div>
+
+        <div class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner rounded img-border">
+                <div class="carousel-item active">
+                    <img src="/carousel/carousel_1.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="/carousel/carousel_2.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="/carousel/carousel_3.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="/carousel/carousel_4.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="/carousel/carousel_5.jpeg" class="d-block w-100" alt="...">
+                </div>
+                <div class="carousel-item">
+                    <img src="/carousel/carousel_6.jpeg" class="d-block w-100" alt="...">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="container my-5">
   {{ .Content }}
-  {{ range site.RegularPages }}
-    <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-    {{ .Summary }}
-  {{ end }}
+</div>
+  <!-- {{ range site.RegularPages }} -->
+  <!--   <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2> -->
+  <!--   {{ .Summary }} -->
+  <!-- {{ end }} -->
 {{ end }}
