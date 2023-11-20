@@ -1,0 +1,58 @@
+
+$background: #547345;
+$background-dark: #185126;
+
+body {
+
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner {
+    background-color: $background;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.banner > div {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 3rem;
+}
+
+.banner > div > .text {
+    display: flex;
+    align-items: center;
+}
+
+.img-border {
+    border: 0.25rem solid #f0f0f0;
+}
+
+.footer {
+    background-color: $background;
+    color: white;
+    height: 12rem;
+}
+
+.footer > div {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 2rem;
+}
+
+.footer > div >h3 {
+    margin: 0;
+}
+
+.footer > div > .contact {
+    display: flex;
+    flex-direction: column;
+}
