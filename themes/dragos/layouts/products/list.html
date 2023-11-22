@@ -1,0 +1,10 @@
+{{ define "main" }}
+  <div class="container my-5">
+    <h1>Coooooooooooooola produkter</h1>
+    {{ .Content }}
+    {{ range .Pages }}
+      <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
+      {{ .Summary }}
+    {{ end }}
+  </div>
+{{ end }}

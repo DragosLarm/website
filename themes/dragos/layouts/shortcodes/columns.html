@@ -1,0 +1,7 @@
+<div class="row align-items-start my-5">
+{{ range split .Inner "<--->" }}
+  <div class="col">
+    {{ . | $.Page.RenderString }}
+  </div>
+{{ end }}
+</div>
