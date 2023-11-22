@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html lang="{{ or site.Language.LanguageCode site.Language.Lang }}" dir="{{ or site.Language.LanguageDirection `ltr` }}">
-<head>
-  {{ partial "head.html" . }}
-</head>
-<body>
-  <header>
-    {{ partial "header.html" . }}
-  </header>
-  <main>
-    {{ block "main" . }}{{ end }}
-  </main>
-  <footer>
-    {{ partial "footer.html" . }}
+  <head>
+    {{ partial "head.html" . }}
+  </head>
+  <body>
+    <header>
+      {{ partial "header.html" . }}
+    </header>
+    <main>
+      {{ block "main" . }}{{ end }}
+    </main>
+    <footer>
+      {{ partial "footer.html" . }}
 
-{{ $bootstrap := resources.Get "js/bootstrap.bundle.min.js" }}
-  {{ $js := slice $bootstrap | resources.Concat "js/bundle.js" | resources.Minify }}
-<script src="{{$js.RelPermalink}}" defer></script>
-  </footer>
-</body>
+      {{ $bootstrap := resources.Get "js/bootstrap.bundle.min.js" }}
+      {{ $js := slice $bootstrap | resources.Concat "js/bundle.js" | resources.Minify }}
+      <script src="{{$js.RelPermalink}}" defer></script>
+    </footer>
+  </body>
 </html>

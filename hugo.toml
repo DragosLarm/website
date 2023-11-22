@@ -9,16 +9,21 @@ theme = 'dragos'
     target = "assets/js/bootstrap.bundle.min.js"
 
 [[menus.main]]
-name = 'Home'
+name = 'Hem'
 pageRef = '/'
 weight = 10
 
 [[menus.main]]
-name = 'Posts'
-pageRef = '/posts'
+name = 'Larm'
+pageRef = '/products'
 weight = 20
 
 [[menus.main]]
-name = 'Tags'
-pageRef = '/tags'
+name = 'Manualer'
+pageRef = '/posts'
 weight = 30
+
+[[menus.main]]
+name = 'Kontakt'
+pageRef = '/tags'
+weight = 40
