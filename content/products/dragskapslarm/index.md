@@ -2,12 +2,13 @@
 title = 'Dragskåpslarm'
 date = 2023-11-21T19:49:03+01:00
 draft = false
+image = '/products/dragskapslarm/image.jpg'
 +++
-
-{{< figure src="image.jpg" title="Dragbskåpslarm 2054" width="50%" >}}
 
 Larmar optiskt och akustiskt vid störningar i skyddsventilationen eller vid totalt
 ventilationsbortfall som påverkar den förinställda larmgränsen (0,5 m/s) vid för stor lucköppning.
+
+<!--more-->
 
 mätområde 0,1 - 1,0 m/s
 
@@ -31,3 +32,4 @@ OPTIONS
 relä
 
 strömförsörjning 24 V DC
+
