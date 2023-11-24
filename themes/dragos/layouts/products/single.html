@@ -1,12 +1,22 @@
 {{ define "main" }}
-  <div class="container">
-    <h1>{{ .Title }}</h1>
+  <div class="container product-container my-5">
 
-    {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }}
-    {{ $dateHuman := .Date | time.Format ":date_long" }}
-    <time datetime="{{ $dateMachine }}">{{ $dateHuman }}</time>
+    <div class="product-menu list-group list-group-flush">
+    {{$section := .Section}}
+    {{range where .Site.RegularPages "Section" $section}}
+    <a class="list-group-item" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+  {{ end }}
+    </div>
+
+    <div>
+    <img src="{{ .Params.image}}" width="75%;">
+
+    <h1 class="mt-4">{{ .Title }}</h1>
 
     {{ .Content }}
+
     {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+    </div>
+</div>
   </div>
 {{ end }}

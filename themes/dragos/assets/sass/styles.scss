@@ -109,6 +109,22 @@ h1 {
     flex-direction: column;
 }
 
+.product-container {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 3rem;
+}
+
+.product-menu {
+
+}
+
+.product-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+}
+
 markdown-inner {
   > :first-child {
     margin-top: 0;

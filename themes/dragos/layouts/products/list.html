@@ -1,10 +1,25 @@
 {{ define "main" }}
-  <div class="container my-5">
-    <h1>Coooooooooooooola produkter</h1>
-    {{ .Content }}
-    {{ range .Pages }}
-      <h2><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h2>
-      {{ .Summary }}
-    {{ end }}
+  <div class="container-lg product-container my-5">
+
+    <div class="product-menu list-group list-group-flush">
+    {{$section := .Section}}
+    {{range where .Site.RegularPages "Section" $section}}
+    <a class="list-group-item" href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+  {{ end }}
+    </div>
+
+    <div class="product-content">
+  {{ range .Pages }}
+    <div class="card" style="width: 24rem;">
+      <img src="{{ .Params.image}}" class="card-img-top" alt="...">
+      <div class="card-body">
+        <h5 class="card-title"><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h5>
+        <h6 class="card-subtitle mb-2 text-muted">Best in class</h6>
+        <p class="card-text">
+    {{ .Summary }}
+ </p>
+      </div>
+        </div>
+  {{ end }}
   </div>
 {{ end }}

@@ -2,13 +2,13 @@
 title = 'Dragbänkslarm'
 date = 2023-11-21T19:49:27+01:00
 draft = false
+image = '/products/dragbankslarm/image.jpg'
 +++
-
-{{< figure src="image.jpg" title="Dragbänkslarm 2055" width="50%" >}}
 
 Larmar optiskt och akustiskt när för stor del av perforaturen övertäcks eller vid störningar i skyddsventilationen eller vid totalt ventilationsbortfall
 som påverkar den förinställda larmgränsen.
 
+<!--more-->>
 
 mätområde 0,1 - 10,0 m/s
 
