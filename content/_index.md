@@ -9,12 +9,17 @@ Larmen har tillverkats sedan 1995 och finns idag på många av våra grund- och 
 Dragos finns även på anläggningar utomlands.
 
 {{< columns >}}
-# Säkert
+## Säkert
 Dragoslarmen följer Arbetsmiljöverkets föreskrifter AFS 2009:2 och övriga rekommendationer där sådana finns.
 Vi kan även utöver standardsortimentet skräddarsy utrustning efter kundens behov.
 
 <--->
 
-# Enkelt
+## Enkelt
 Vårt grundkoncept är att Dragoslarmen skall vara lätta att installera och vara användarvänliga utan tidskrävande och komplicerade inställningar som stör operatören.
+
+<--->
+
+## Kostnadseffektivt
+Vi är billigare än alla konkurrenter, och hör sen!
 {{< /columns >}}
