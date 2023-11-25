@@ -6,7 +6,7 @@ body {
 
 }
 
-h1 {
+h1, h2 {
     color: $background-dark;
 }
 
@@ -18,25 +18,28 @@ h1 {
     font-weight: bold;
 }
 
-.text-container{
-    width:600px;
-    margin: auto;
-}
-
-@media (min-width: 576px) {
-.text-container{
-    width:540px;
-}}
-
-@media (min-width: 768px) {
-.text-container{
-    width: 720px;
-}}
-
 .header {
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
+    margin-bottom: 0.5rem;
 }
+
+.header > img {
+    width: 60%;
+    margin-left: 0.5rem;
+}
+
+@media (min-width: 768px) {
+.header {
+    flex-direction: row;
+    margin-bottom: 1rem;
+}
+
+.header > img {
+    width: 40%;
+    margin-left: 0rem;
+}}
 
 .divider {
     background-color: $background;
@@ -68,7 +71,7 @@ h1 {
     row-gap: 0;
 }}
 
-@media (min-width: 900px) {
+@media (min-width: 1200px) {
 .banner > div {
     font-size: 1.5rem;
 }}
@@ -84,6 +87,23 @@ h1 {
 
 .img-border {
     border: 0.25rem solid #f0f0f0;
+}
+
+.columns {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 1rem;
+    text-align: center;
+}
+
+@media (min-width: 900px) {
+.columns {
+    flex-direction: row;
+}}
+
+.columns > div {
+    flex: 1;
 }
 
 .footer {
