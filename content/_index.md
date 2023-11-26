@@ -1,11 +1,11 @@
 +++
-title = 'Home'
+title = 'Hem'
 date = 2023-01-01T08:00:00-07:00
 draft = false
+summary = 'Dragoslarmen övervakar och larmar när avvikelser i skyddsventilationen inträffar i dragskåp, dragbänkar, kemikalieskåp, ren-rum och andra typer av ventilationskanaler vid kemikaliehantering.'
 +++
 
-Dragoslarmen är svenskkonstruerade och några har tagits fram tillsammans med nordiska samarbetspartners vilket bidrar till hög kvalitet och konkurranskraftiga priser.
-Larmen har tillverkats sedan 1995 och finns idag på många av våra grund- och gymnasieskolor, universitet, högskolor, sjukhus, industrilabb, läkemedelsföretag och på övriga platser där laboratorier finns.
+DragosLarm har tillverkats sedan 1995 och finns idag på många av våra grund- och gymnasieskolor, universitet, högskolor, sjukhus, industrilabb, läkemedelsföretag och på övriga platser där laboratorier finns.
 Dragos finns även på anläggningar utomlands.
 
 {{< columns >}}
@@ -21,5 +21,5 @@ Vårt grundkoncept är att Dragoslarmen skall vara lätta att installera och var
 <--->
 
 ## Kostnadseffektivt
-Vi är billigare än alla konkurrenter, och hör sen!
+Dragoslarmen är svenskkonstruerade och några har tagits fram tillsammans med nordiska samarbetspartners vilket bidrar till hög kvalitet och konkurranskraftiga priser.
 {{< /columns >}}

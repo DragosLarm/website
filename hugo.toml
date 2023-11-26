@@ -15,15 +15,15 @@ weight = 10
 
 [[menus.main]]
 name = 'Larm'
-pageRef = '/products'
+pageRef = '/produkter'
 weight = 20
 
 [[menus.main]]
 name = 'Manualer'
-pageRef = '/posts'
+pageRef = '/manualer'
 weight = 30
 
 [[menus.main]]
-name = 'Kontakt'
-pageRef = '/tags'
+name = 'Nyheter'
+pageRef = '/nyheter'
 weight = 40
