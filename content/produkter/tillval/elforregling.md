@@ -1,14 +1,11 @@
 +++
-title = 'Elförreglering'
-date = 2023-11-21T19:49:03+01:00
-draft = false
-image = '/products/elforreglering/image.jpg'
+title = 'Elförreglering 2012R24V'
+image = '/products/elforregling/image.png'
+categories = ['Tillval']
 +++
 När den förinställda larmgränsen underskrids vid störningar i skyddsventilationen eller vid totalt ventilationsbortfall sker följande:
-
-Det optiska och akustiska larmet löser ut efter en viss fördröjning (justerbar 0-60 sek).
-
 <!--more-->>
+Det optiska och akustiska larmet löser ut efter en viss fördröjning (justerbar 0-60 sek).
 
 Efter ytterligare c:a 30 sek löser elförreglingen ut d.v.s skåpets belysning och anslutna kontakter görs strömlösa förutom larmets och en kontakt som måste finnas förl t ex omrörare.
 
