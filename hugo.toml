@@ -1,6 +1,6 @@
 baseURL = 'https://example.org/'
 languageCode = 'sv'
-title = 'My New Hugo Site'
+title = 'DragosLarm AB'
 theme = 'dragos'
 
 [module]
