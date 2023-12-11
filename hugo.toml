@@ -18,10 +18,10 @@ name = 'Larm'
 pageRef = '/produkter'
 weight = 20
 
-[[menus.main]]
-name = 'Manualer'
-pageRef = '/manualer'
-weight = 30
+# [[menus.main]]
+# name = 'Manualer'
+# pageRef = '/manualer'
+# weight = 30
 
 [[menus.main]]
 name = 'Nyheter'
