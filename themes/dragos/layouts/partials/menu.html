@@ -14,6 +14,10 @@ Renders a menu for the given menu ID.
   <nav class="navbar navbar-expand navbar-light pb-0">
     <ul class="navbar-nav me-auto">
       {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" .) }}
+
+        <li class="nav-item">
+            <a class="nav-link" href="/documents/Dragos Larm GTC.pdf">Försäljningsvillkor</a>
+        </li>
     </ul>
   </nav>
 {{- end }}
