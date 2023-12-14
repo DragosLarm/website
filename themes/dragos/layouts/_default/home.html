@@ -24,10 +24,10 @@
                 <div class="carousel-item active">
                     <img src="/carousel/larm1.jpg" class="d-block w-100" alt="...">
                 </div>
-                {{ range $i, $sequence :=  (seq 5) }}
-                    <div class="carousel-item">
-                        <img src="/carousel/larm{{ add $sequence 1 }}.jpg" class="d-block w-100" alt="...">
-                    </div>
+                {{ range $i, $sequence := (seq 5) }}
+                <div class="carousel-item">
+                    <img src="/carousel/larm{{ add $sequence 1 }}.jpg" class="d-block w-100" alt="...">
+                </div>
                 {{ end }}
             </div>
         </div>
@@ -35,6 +35,38 @@
 </div>
 
 <div class="container my-5">
-  {{ .Content }}
+    {{ .Content }}
+</div>
+
+<div class="container columns my-5" style="gap: 2rem;">
+    <div class="icon-section">
+        {{ partial "svg/secure.html" . }}
+        <h3>Säkert</h3>
+        <div>
+            {{ .Params.section1 }}
+        </div>
+    </div>
+    <div class="icon-section">
+        {{ partial "svg/wrench.html" . }}
+        <h3>Enkelt</h3>
+        <div>
+            {{ .Params.section2 }}
+        </div>
+    </div>
+    <div class="icon-section">
+        {{ partial "svg/cost.html" . }}
+        <h3>Kostnadseffektivt</h3>
+        <div>
+            {{ .Params.section3 }}
+        </div>
+    </div>
+</div>
+
+
+<div class="container my-5" style="display: flex; justify-content: center; align-items: center;">
+    <span>
+        {{ .Params.gtc }}
+        <a href="/documents/Dragos Larm GTC.pdf">Försäljningsvillkor</a>
+    </span>
 </div>
 {{ end }}
