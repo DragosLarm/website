@@ -1,7 +1,0 @@
-<div class="columns my-5">
-{{ range split .Inner "<--->" }}
-  <div>
-    {{ . | $.Page.RenderString }}
-  </div>
-{{ end }}
-</div>

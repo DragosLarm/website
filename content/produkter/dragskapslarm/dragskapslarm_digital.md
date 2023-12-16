@@ -8,6 +8,7 @@ Larmar optiskt och akustiskt vid störningar i skyddsventilationen eller vid tot
 ventilationsbortfall som påverkar den förinställda larmgränsen (0,5 m/s) vid för stor lucköppning.
 
 <!--more-->
+
 Digital display visar lufthastigheten (m/s).
 
 Se beskrivning nr 2054 med tillägget digital display och option relä och 0-10V utgång.
