@@ -1,12 +1,6 @@
-baseURL = 'https://example.org/'
-languageCode = 'sv'
+baseURL = 'https://dragos.se/'
 title = 'DragosLarm AB'
-theme = 'dragos'
-
-[module]
-  [[module.mounts]]
-    source = "node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"
-    target = "assets/js/bootstrap.bundle.min.js"
+languageCode = 'sv'
 
 [[menus.main]]
 name = 'Hem'
