@@ -2,22 +2,29 @@ baseURL = 'https://dragos.se/'
 title = 'DragosLarm AB'
 languageCode = 'sv'
 
+defaultContentLanguage = 'sv'
+
 [[menus.main]]
 name = 'Hem'
 pageRef = '/'
 weight = 10
 
 [[menus.main]]
-name = 'Larm'
-pageRef = '/produkter'
+name = 'Produkter'
+pageRef = '/products'
 weight = 20
 
 [[menus.main]]
 name = 'Manualer'
-pageRef = '/manualer'
+pageRef = '/manuals'
 weight = 30
 
 [[menus.main]]
-name = 'Nyheter'
-pageRef = '/nyheter'
+name = 'Användningsområden'
+pageRef = '/applications'
 weight = 40
+
+[[menus.main]]
+name = 'Om oss'
+pageRef = '/about'
+weight = 50

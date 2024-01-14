@@ -2,6 +2,7 @@
 title = 'Dragskåpslarm 2054'
 image = '/products/dragskapslarm/image.png'
 categories = ['Dragskåpslarm']
+weight = 10
 +++
 
 Larmar optiskt och akustiskt vid störningar i skyddsventilationen eller vid totalt ventilationsbortfall som påverkar den förinställda larmgränsen (0,5 m/s) vid för stor lucköppning.

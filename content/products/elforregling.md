@@ -2,6 +2,7 @@
 title = 'Elförreglering 2012R24V'
 image = '/products/elforregling/image.png'
 categories = ['Tillval']
+weight = 40
 +++
 
 När den förinställda larmgränsen underskrids vid störningar i skyddsventilationen eller vid totalt ventilationsbortfall sker följande:

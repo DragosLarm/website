@@ -1,0 +1,33 @@
+{{ define "main" }}
+<div class="my-container my-10">
+  <div class="mx-5">
+    <div class="grid grid-cols-1 gap-5 md:grid-cols-2 xl:grid-cols-3">
+      {{ range .RegularPagesRecursive }}
+      <div
+        class="flex flex-col items-center rounded-lg border border-grey-300 bg-grey-100 p-5"
+      >
+        <a
+          class="rounded-md border border-grey-300 bg-grey-50"
+          href="{{ .RelPermalink }}"
+        >
+          <img
+            src="{{ .Params.image }}"
+            class="card-img-top"
+            width="400px"
+            alt="..."
+          />
+        </a>
+        <div class="my-3">
+          <h5
+            class="mb-3 rounded-md bg-green-800 px-3 py-1 text-xl font-bold text-grey-50"
+          >
+            <a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a>
+          </h5>
+          <p>{{ .Summary }}</p>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</div>
+{{ end }}

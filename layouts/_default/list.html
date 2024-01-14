@@ -1,12 +1,9 @@
 {{ define "main" }}
-<div class="divider green"></div>
-
-<div class="container my-4">
-  <h1>{{ .Title }}</h1>
-  <hr />
-  {{ .Content }} {{ range .Pages }}
-  <h3><a href="{{ .RelPermalink }}">{{ .LinkTitle }}</a></h3>
-  <div class="mb-4">{{ .Summary }}</div>
-  {{ end }}
+<div class="my-container my-10">
+  <div class="content mx-5">
+    <h1 class="text-3xl font-bold text-green-900">{{ .Title }}</h1>
+    <div class="mb-5 bg-green-800 py-0.5"></div>
+    {{ .Content }}
+  </div>
 </div>
 {{ end }}

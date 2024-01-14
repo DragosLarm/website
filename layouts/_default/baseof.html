@@ -6,11 +6,9 @@
   <head>
     {{ partial "head.html" . }}
   </head>
-  <body>
+  <body class="bg-grey-50 text-grey-900">
     <header>{{ partial "header.html" . }}</header>
-
     <main>{{ block "main" . }}{{ end }}</main>
-
-    <footer></footer>
+    <footer>{{ partial "footer.html" . }}</footer>
   </body>
 </html>
