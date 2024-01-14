@@ -2,6 +2,7 @@
 title = 'Larm till punktutsug 2021'
 image = '/products/punktutsug/image.png'
 categories = ['Punktutsug']
+weight = 30
 +++
 
 Passar alla typer av punktutsug. Sensorn sitter på kabel och placeras i frånluftskanalen samt avläsningsenheten på lämplig, synbar och tillgänglig plats.

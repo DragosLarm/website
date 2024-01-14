@@ -1,13 +1,26 @@
-<div class="footer">
-  <div class="container">
-    <h3>Dragos Larm AB {{ now.Year }}</h3>
-    <div class="contact">
-      <strong
-        ><a style="color: white" href="mailto:info@dragoslarm.se"
-          >info@dragoslarm.se</a
-        ></strong
-      >
-      <strong>079 339 72 82</strong>
+<div class="bg-green-800 py-20">
+  <div class="my-container text-grey-50">
+    <div class="mx-5">
+      <h3 class="mb-5 text-3xl font-bold">Dragos Larm AB</h3>
+
+      <div class="grid grid-rows-3 lg:grid-cols-3 lg:grid-rows-1">
+        <div>
+          <p class="text-lg font-bold">{{ i18n "email" }}</p>
+          <strong class="mb-3">
+            <a href="mailto:info@dragoslarm.se">info@dragoslarm.se</a>
+          </strong>
+        </div>
+        <div>
+          <p class="text-lg font-bold">{{ i18n "phone" }}</p>
+          <strong>+46 (0)79 339 72 82</strong>
+        </div>
+
+        <div>
+          <p class="text-lg font-bold">{{ i18n "address" }}</p>
+          <p>Norrsunda Krogsta 219</p>
+          <p>195195 Rosersberg</p>
+        </div>
+      </div>
     </div>
   </div>
 </div>

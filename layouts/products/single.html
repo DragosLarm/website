@@ -1,0 +1,24 @@
+{{ define "main" }}
+
+<div class="my-container my-10">
+  <div
+    class="grid grid-cols-1 justify-items-center gap-5 lg:grid-cols-2 lg:gap-10"
+  >
+    <img src="{{ .Params.image}}" width="640px" />
+    <div class="rounded-md border border-grey-300 bg-grey-100 p-5">
+      <h1 class="mb-3 text-2xl font-bold text-grey-800">{{ .Title }}</h1>
+
+      {{ .Content }}
+
+      <button
+        class="mt-5 rounded-lg bg-green-800 px-5 py-2 text-lg font-bold text-grey-50 hover:bg-green-700 active:bg-green-600"
+        onclick="window.location.href='mailto:info@dragoslarm.se?subject=Order för {{ .Title }}'"
+      >
+        Beställ
+      </button>
+
+      {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
+    </div>
+  </div>
+</div>
+{{ end }}

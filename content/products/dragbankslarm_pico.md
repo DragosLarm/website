@@ -2,6 +2,7 @@
 title = 'Dragbänkslarm 2055'
 image = '/products/dragbankslarm/image.png'
 categories = ['Dragbänkslarm']
+weight = 20
 +++
 
 Larmar optiskt och akustiskt när för stor del av perforaturen övertäcks eller vid störningar i skyddsventilationen eller vid totalt ventilationsbortfall
