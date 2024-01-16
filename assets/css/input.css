@@ -7,8 +7,35 @@
 }
 
 .content h1,
+h3,
 p {
-  margin-bottom: 1rem;
+  @apply mb-3;
+}
+
+.content ul {
+  @apply ml-5 mt-3 list-disc;
+}
+
+.content h2 {
+  @apply mt-3 text-xl font-bold text-green-900;
+}
+
+.content h3 {
+  @apply mt-3 text-lg font-bold text-green-900;
+}
+
+.document h2 {
+  @apply mb-3 text-xl font-bold text-green-900;
+}
+
+#TableOfContents {
+  @apply rounded-md bg-grey-200 p-3;
+  ul {
+    @apply font-bold text-green-900;
+    li {
+      @apply mb-1;
+    }
+  }
 }
 
 .nav-link {
@@ -17,6 +44,14 @@ p {
 
 .active {
   @apply rounded-lg bg-grey-50 font-semibold text-grey-800 lg:rounded-none lg:rounded-t-lg;
+}
+
+.adjusted {
+  @apply mx-5;
+}
+
+.divider {
+  @apply mb-5 bg-green-800 py-0.5;
 }
 
 .topnav {

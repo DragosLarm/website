@@ -1,0 +1,16 @@
+{{ define "main" }}
+<div class="my-container my-10">
+  <div class="adjusted document">
+    <h1 class="mb-3 text-3xl font-bold text-green-900">{{ .Title }}</h1>
+    <div class="divider"></div>
+
+    <div class="grid gap-8 lg:grid-cols-3">
+      <div>
+        <p class="mb-3 text-lg font-bold text-grey-800">{{ i18n "toc" . }}</p>
+        {{ .TableOfContents }}
+      </div>
+      <div class="lg:col-span-2">{{ .Content }}</div>
+    </div>
+  </div>
+</div>
+{{ end }}
