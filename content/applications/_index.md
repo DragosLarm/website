@@ -2,6 +2,14 @@
 title = "Användningsområden"
 +++
 
+## Laboratorier
+
+Dragoslarmen övervakar och larmar när avvikelser i skyddsventilationen inträffar i dragskåp, dragbänkar, kemikalieskåp, ren-rum och andra typer av ventilationskanaler vid kemikaliehantering.
+
+{{< break >}}
+
+## Tvättstugor i flerbostadshus
+
 Allmänna tvättstugor i flerfamiljshus:
 
 God ventilation i tvättstugan är grundläggande för att både skapa en trivsam miljö i allmänna tvättstugor men framför allt också förebygga fuktskador i byggnader och på maskiner. Dessutom torkar tvätten i fuktiga miljöer mycket långsammare.
@@ -11,3 +19,23 @@ Vanligtvis använder man sig av en frånluftsfläkt som bör rensas minst en gå
 Dragoslarmen övervakar flödet på ett enkelt sätt och larmar så fort det förinställda bör-värdet inte längre uppnås i ventilationen.
 
 Dragoslarmen är byggda för okomplicerat handhavande och larmar både optiskt och akustiskt, samt kan anslutas till en övervakningscentral. Enklare går det inte att få trygghet för ventilationen i tvättstugan, just mellan de årliga kontrollerna.
+
+{{< break >}}
+
+## Ventilerad förvaring
+
+Kommer inom kort
+
+{{< break >}}
+
+## Skyddsskåp
+
+Kommer inom kort
+
+{{< break >}}
+
+## Industri
+
+Kommer inom kort
+
+{{< break >}}
