@@ -1,5 +1,6 @@
 +++
 title = 'Dragskåpslarm 2054'
+aliases = ['/1 dragskåpslarm'] # Old website page
 image = '/products/dragskapslarm/image.png'
 categories = ['Dragskåpslarm']
 weight = 10
