@@ -1,5 +1,6 @@
 +++
 title = 'Hem'
+aliases = ['/nyheter'] # Old website page
 date = 2023-01-01T08:00:00-07:00
 draft = false
 summary = 'Dragoslarmen övervakar och larmar när avvikelser i skyddsventilationen inträffar i dragskåp, dragbänkar, kemikalieskåp, ren-rum och andra typer av ventilationskanaler vid kemikaliehantering.'
