@@ -1,0 +1,24 @@
+[[main]]
+name = 'Home'
+pageRef = '/'
+weight = 10
+
+[[main]]
+name = 'Systems'
+pageRef = '/products'
+weight = 20
+
+[[main]]
+name = 'Manuals'
+pageRef = '/manuals'
+weight = 30
+
+[[main]]
+name = 'Applications'
+pageRef = '/applications'
+weight = 40
+
+[[main]]
+name = 'About us'
+pageRef = '/about'
+weight = 50

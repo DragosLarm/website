@@ -10,12 +10,16 @@ Renders a menu for the given menu ID.
 {{- $page := .page }}
 {{- $menuID := .menuID }}
 
+
 {{- with index site.Menus $menuID }}
   <nav id="topnav" class="topnav mx-3 text-grey-50">
-    <a class="font-semibold px-5 py-2" href="/">{{ site.Title }}</a>
+      {{ range first 1 .}}
+        <a class="font-semibold px-5 py-2" href="{{ .URL }}">{{ site.Title }}</a>
+      {{ end }}
+
       {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" .) }}
     <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-        <i>{{ partial "svg/menu.html" . }}</i>
+      <i>{{ partial "svg/menu.html" . }}</i>
     </a>
   </nav>
 {{- end }}

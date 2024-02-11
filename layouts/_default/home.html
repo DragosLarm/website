@@ -10,6 +10,16 @@
 </div>
 {{ end }}
 
+<div class="my-container">
+  <div class="ml-8 mt-3 flex gap-5">
+    {{ range .AllTranslations }}
+    <a href="{{ .RelPermalink }}"
+      >{{ .Language.Params.flag }} {{ .Language.LanguageName}}</a
+    >
+    {{ end }}
+  </div>
+</div>
+
 <div class="my-container my-16 flex justify-center">
   <img src="/logo.png" width="640" alt="" />
 </div>
@@ -46,21 +56,27 @@
       class="max-w-48 flex flex-1 flex-col items-center gap-1 rounded-xl border border-grey-300 bg-grey-200 p-5 text-center"
     >
       {{ partial "svg/secure.html" . }}
-      <h3 class="mt-5 text-2xl font-bold text-green-900">Säkert</h3>
+      <h3 class="mt-5 text-2xl font-bold text-green-900">
+        {{ i18n "section1" . }}
+      </h3>
       <div>{{ .Params.section1 }}</div>
     </div>
     <div
       class="flex flex-1 flex-col items-center gap-1 rounded-xl border border-grey-300 bg-grey-200 p-5 text-center"
     >
       {{ partial "svg/wrench.html" . }}
-      <h3 class="mt-5 text-2xl font-bold text-green-900">Enkelt</h3>
+      <h3 class="mt-5 text-2xl font-bold text-green-900">
+        {{ i18n "section2" . }}
+      </h3>
       <div>{{ .Params.section2 }}</div>
     </div>
     <div
       class="flex flex-1 flex-col items-center gap-1 rounded-xl border border-grey-300 bg-grey-200 p-5 text-center"
     >
       {{ partial "svg/cost.html" . }}
-      <h3 class="mt-5 text-2xl font-bold text-green-900">Kostnadseffektivt</h3>
+      <h3 class="mt-5 text-2xl font-bold text-green-900">
+        {{ i18n "section3" . }}
+      </h3>
       <div>{{ .Params.section3 }}</div>
     </div>
   </div>

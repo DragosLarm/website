@@ -1,0 +1,31 @@
+baseURL = 'https://dragos.se/'
+title = 'DragosLarm AB'
+
+defaultContentLanguage = 'sv'
+
+[languages]
+  [languages.de]
+    contentDir = 'content/de'
+    disabled = true
+    languageCode = 'de-DE'
+    languageDirection = 'ltr'
+    languageName = 'Deutsch'
+    weight = 3
+  [languages.en]
+    contentDir = 'content/en'
+    disabled = false
+    languageCode = 'en-US'
+    languageDirection = 'ltr'
+    languageName = 'English'
+    weight = 2
+    [languages.en.params]
+      flag = '🇺🇸'
+  [languages.sv]
+    contentDir = 'content/sv'
+    disabled = false
+    languageCode = 'sv-SE'
+    languageDirection = 'ltr'
+    languageName = 'Svenska'
+    weight = 1
+    [languages.sv.params]
+      flag = '🇸🇪'
