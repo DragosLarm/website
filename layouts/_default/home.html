@@ -10,16 +10,6 @@
 </div>
 {{ end }}
 
-<div class="my-container">
-  <div class="ml-8 mt-3 flex gap-5">
-    {{ range .AllTranslations }}
-    <a href="{{ .RelPermalink }}"
-      >{{ .Language.Params.flag }} {{ .Language.LanguageName}}</a
-    >
-    {{ end }}
-  </div>
-</div>
-
 <div class="my-container my-16 flex justify-center">
   <img src="/logo.png" width="640" alt="" />
 </div>

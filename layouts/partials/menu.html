@@ -12,7 +12,7 @@ Renders a menu for the given menu ID.
 
 
 {{- with index site.Menus $menuID }}
-  <nav id="topnav" class="topnav mx-3 text-grey-50">
+  <nav id="topnav" class="topnav mr-3 text-grey-50">
       {{ range first 1 .}}
         <a class="font-semibold px-5 py-2" href="{{ .URL }}">{{ site.Title }}</a>
       {{ end }}

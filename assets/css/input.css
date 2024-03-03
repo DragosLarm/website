@@ -39,11 +39,11 @@ p {
 }
 
 .nav-link {
-  @apply px-5 py-2;
+  @apply px-5 py-2 hover:rounded-t-lg hover:bg-green-700;
 }
 
 .active {
-  @apply rounded-lg bg-grey-50 font-semibold text-grey-800 lg:rounded-none lg:rounded-t-lg;
+  @apply rounded-lg bg-grey-50 font-semibold text-grey-800 hover:bg-grey-200 lg:rounded-none lg:rounded-t-lg;
 }
 
 .adjusted {
@@ -81,6 +81,7 @@ p {
 @media screen and (max-width: 1024px) {
   .topnav.responsive {
     position: relative;
+    @apply pb-3;
   }
   .topnav.responsive .icon {
     position: absolute;

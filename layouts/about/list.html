@@ -1,14 +1,16 @@
 {{ define "main" }}
-<div
-  class="mx-auto my-10 max-w-screen-lg rounded-xl border border-grey-300 bg-grey-100 p-10 text-center"
->
-  <div class="flex flex-col items-center justify-center gap-8">
-    <img class="mb-10" src="/logo.png" width="640" />
+<div class="mx-container my-10 px-5">
+  <div
+    class="mx-auto max-w-screen-lg rounded-xl border border-grey-300 bg-grey-100 p-10 text-center"
+  >
+    <div class="flex flex-col items-center justify-center gap-8">
+      <img class="mb-10" src="/logo.png" width="640" />
 
-    <div class="content">{{ .Summary }}</div>
+      <div class="content">{{ .Summary }}</div>
 
-    <!-- <h1 class="text-3xl font-bold text-grey-700">{{ i18n "partners" }}</h1> -->
-    <!-- <a href="https://jetlab.se"><img src="/jetlab.jpg" /></a> -->
+      <!-- <h1 class="text-3xl font-bold text-grey-700">{{ i18n "partners" }}</h1> -->
+      <!-- <a href="https://jetlab.se"><img src="/jetlab.jpg" /></a> -->
+    </div>
   </div>
 </div>
 {{ end }}

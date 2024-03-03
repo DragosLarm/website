@@ -3,3 +3,13 @@
     {{ partial "menu.html" (dict "menuID" "main" "page" .) }}
   </div>
 </div>
+
+<div class="my-container">
+  <div class="ml-4 mt-3 flex gap-5">
+    {{ range .AllTranslations }}
+    <a class="rounded-md p-1 hover:bg-grey-300" href="{{ .RelPermalink }}"
+      >{{ .Language.Params.flag }} {{ .Language.LanguageName}}</a
+    >
+    {{ end }}
+  </div>
+</div>
