@@ -1,6 +1,6 @@
 +++
 title = "Om oss"
-header = "Dragos produkter är konstruerade och utvecklade i Sverige och tillverkas i Finland för att säkerställa högsta möjliga kvalitet."
+header = "Dragos produkter är utvecklade i Sverige och tillverkas Sverige i och Finland för att säkerställa högsta möjliga kvalitet."
 +++
 
 DragosLarm har funnits som produkt i Sverige sedan mitten på 1990-talet och har tidigare marknadsförts genom svenska Elektrometer AB innan DragosLarm AB grundades som självständigt bolag 2008 för att enbart fokusera på enkla övervakningslösningar av kritisk ventilation.

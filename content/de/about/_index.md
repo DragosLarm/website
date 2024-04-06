@@ -1,6 +1,6 @@
 +++
 title = "About us"
-header = "Dragos-Produkte werden in Schweden entworfen und entwickelt und in Finnland hergestellt, um die höchstmögliche Qualität zu gewährleisten."
+header = "Dragos-Produkte werden in Schweden entworfen und in Schweden und Finnland hergestellt, um die höchstmögliche Qualität zu gewährleisten."
 +++
 
 DragosLarm existiert als Produkt in Schweden seit Mitte der 1990er Jahre und wurde zuvor über Elektometer AB vermarktet, bevor DragosLarm AB 2008 als unabhängiges Unternehmen gegründet wurde, um sich ausschließlich auf unkomplizierte und zuverlässige Überwachungslösungen für kritische Ventilation zu konzentrieren.
