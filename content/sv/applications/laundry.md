@@ -3,7 +3,7 @@ title = "Tvättstugor i flerbostadshus"
 weight = 2
 +++
 
-![laundry](/test/laundry.png)
+![laundry](/applications/2.jpg)
 
 Allmänna tvättstugor i flerfamiljshus:
 

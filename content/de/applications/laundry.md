@@ -3,7 +3,7 @@ title = "Gemeinschaftswaschküchen"
 weight = 2
 +++
 
-![laundry](/test/laundry.png)
+![laundry](/applications/2.jpg)
 
 Öffentliche Waschräume in Mehrfamilienhäusern oder Waschsalons:
 

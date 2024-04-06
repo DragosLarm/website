@@ -11,7 +11,7 @@
         >
       </div>
 
-      <div class="grid grid-rows-3 lg:grid-cols-3 lg:grid-rows-1">
+      <div class="grid grid-rows-3 gap-10 lg:grid-cols-3 lg:grid-rows-1">
         <div>
           <p class="text-lg font-bold">{{ i18n "email" }}</p>
           <strong class="mb-3">
@@ -27,6 +27,29 @@
           <p class="text-lg font-bold">{{ i18n "address" }}</p>
           <p>Norrsunda Krogsta 219</p>
           <p>195195 Rosersberg</p>
+        </div>
+      </div>
+
+      <div class="mt-10 grid grid-rows-3 gap-10 lg:grid-cols-3 lg:grid-rows-1">
+        <div>
+          <p class="text-lg font-bold">{{ i18n "company" }}</p>
+          <p><strong>Org:</strong> 556754-7434</p>
+          <p><strong>Vat:</strong> SE556754743401</p>
+        </div>
+
+        <div>
+          <p class="text-lg font-bold">{{ i18n "legal" }}</p>
+          <p class="w-80 text-sm">{{ i18n "legal_content" }}</p>
+        </div>
+
+        <div>
+          <p class="text-lg font-bold">{{ i18n "web" }}</p>
+          <p>
+            {{ i18n "web_content" }}
+            <a class="font-bold underline" href="https://pages.github.com/"
+              >GitHub Pages</a
+            >
+          </p>
         </div>
       </div>
     </div>
