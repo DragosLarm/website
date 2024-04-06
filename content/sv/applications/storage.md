@@ -3,6 +3,6 @@ title = "Ventilerad förvaring"
 weight = 3
 +++
 
-![storage](/test/storage.png)
+![storage](/applications/3.jpg)
 
 Kommer inom kort

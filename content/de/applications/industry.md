@@ -3,6 +3,6 @@ title = "Industrie"
 weight = 5
 +++
 
-![storage](/test/industry.png)
+![storage](/applications/4.jpg)
 
 Available soon

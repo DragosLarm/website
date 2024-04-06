@@ -1,6 +1,6 @@
 +++
 title = 'Dragos ELF 2012R24V'
-image = '/products/elforregling/image.png'
+image = '/products/elforregling/placeholder.png'
 weight = 40
 +++
 

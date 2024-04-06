@@ -3,7 +3,7 @@ title = "Laundry rooms"
 weight = 2
 +++
 
-![laundry](/test/laundry.png)
+![laundry](/applications/2.jpg)
 
 Public laundry rooms in apartment buildings:
 
