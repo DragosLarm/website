@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 .my-container {
-  @apply mx-auto max-w-screen-xl px-5 lg:px-0;
+  @apply mx-auto max-w-screen-xl lg:px-0;
 }
 
 .content h1,
@@ -17,41 +17,31 @@ p {
 }
 
 .content h2 {
-  @apply mt-3 text-xl font-bold text-green-900;
+  @apply mt-3 text-xl font-bold text-grey-800;
 }
 
 .content h3 {
-  @apply mt-3 text-lg font-bold text-green-900;
+  @apply mt-3 text-lg font-bold text-grey-800;
 }
 
 .document h2 {
-  @apply mb-3 text-xl font-bold text-green-900;
+  @apply mb-3 text-xl font-bold text-grey-800;
 }
 
-#TableOfContents {
-  @apply rounded-md bg-grey-200 p-3;
-  ul {
-    @apply font-bold text-green-900;
-    li {
-      @apply mb-1;
-    }
-  }
+.toc-link {
+  @apply px-2 py-1 hover:rounded-md hover:bg-grey-500 hover:font-bold hover:text-grey-100;
 }
 
 .nav-link {
-  @apply px-5 py-2 hover:rounded-t-lg hover:bg-green-700;
+  @apply px-5 py-2 hover:rounded-lg hover:bg-grey-400 lg:rounded-none lg:hover:rounded-none lg:hover:rounded-t-lg;
 }
 
 .active {
-  @apply rounded-lg bg-grey-50 font-semibold text-grey-800 hover:bg-grey-200 lg:rounded-none lg:rounded-t-lg;
+  @apply rounded-lg bg-white-100 text-grey-900 hover:bg-grey-100 lg:rounded-none lg:rounded-t-lg;
 }
 
 .adjusted {
-  @apply mx-5;
-}
-
-.divider {
-  @apply mb-5 bg-green-800 py-0.5;
+  @apply mx-3;
 }
 
 .topnav {
