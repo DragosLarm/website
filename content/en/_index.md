@@ -4,7 +4,7 @@ summary = 'The exhaust air volume flow monitoring and alarm system monitors and 
 intro = 'DragosLarm has been manufactured since 1995 and can now be found in many of our primary and secondary schools, universities, colleges, hospitals, industrial laboratories, pharmaceutical companies and other places where laboratories are located. Dragos is also available in establishments abroad.'
 section1 = 'The design is limited to the essentials and has been tried and tested over many years'
 section2 = 'Our basic concept is that our products are easy to install and user friendly.'
-section3 = 'Our products are designed in Sweden and produced in Finland. Our many years of experience guarantee high quality at competitive prices.'
+section3 = 'Our products are designed in Sweden and produced in Sweden and Finland. Our many years of experience guarantee high quality at competitive prices.'
 +++
 
 As early as 1998, a German journal reported on the need to regularly check fume hoods as safety equipment. Monitoring the operation of parts of the ventilation system (e.g. monitoring the fan speed) is generally not sufficient.

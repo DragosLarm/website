@@ -4,7 +4,7 @@ summary = 'Das Überwachungs- und Alarmierungssystem für Abluftvolumenströme �
 intro = 'DragosLarm wird seit 1995 hergestellt und ist heute in vielen unserer Grund- und weiterführenden Schulen, Universitäten, Hochschulen, Krankenhäusern, Industrielabors, Pharmaunternehmen und an anderen Orten, an denen sich Labore befinden, zu finden. Dragos ist auch in Einrichtungen im Ausland erhältlich.'
 section1 = 'Die Konstruktion beschränkt sich auf das Wesentliche und ist langjährig erprobt'
 section2 = 'Unser Grundkonzept besteht darin, dass unsere Produkte einfach zu installieren und benutzerfreundlich sind.'
-section3 = 'Unsere Produkte sind in Schweden konstruiert und werden in Finnland produziert. Unsere langjährige Erfahrung bürgt für hohe Qualität bei gleichzeitig wettbewerbsfähigen Preisen.'
+section3 = 'Unsere Produkte sind in Schweden konstruiert und werden in Schweden und Finnland produziert. Unsere langjährige Erfahrung bürgt für hohe Qualität bei gleichzeitig wettbewerbsfähigen Preisen.'
 +++
 
 Bereits 1998 wurde in einer Deutschen Fachzeitung die Notwendigkeit, Abzüge als sicherheitstechnische Einrichtungen regelmäßig zu prüfen, berichtet.
