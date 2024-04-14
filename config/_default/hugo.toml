@@ -11,6 +11,8 @@ defaultContentLanguage = 'sv'
     languageName = 'Deutsch'
     weight = 3
     [languages.de.params]
+      description = "DragosLarm AB - Safeguarding Aerogen Environments"
+      keywords = "Laborabzüge, Alarm, Warnung, Abzüge, 12924, Strömungsmechanik, Luftstrom überwachen, Absaugleistung überwachen, Dämpfe, Gase, Aerosole, Abzugsprüfung, Luftgeschwindigkeit, Absaugleistung, Sicherheitswerkbänke, Sicherheitswerkbank, Überwachung, Labor, Luft, Chemikalien, Giftige Gase"
       flag = '🇩🇪'
   [languages.en]
     contentDir = 'content/en'
@@ -19,6 +21,8 @@ defaultContentLanguage = 'sv'
     languageName = 'English'
     weight = 2
     [languages.en.params]
+      description = "DragosLarm AB - Safeguarding Aerogen Environments"
+      keywords = "Lifescience, Downdraft cabinet, Airflow, surveillance, Downflow booth, Fume Hood, Storage Cabinet, Ducted Fume Hood, Laboratory, Ventilation, 14175, Air, Hazardous material, Chemicals, toxic fumes"
       flag = '🇺🇸'
   [languages.sv]
     contentDir = 'content/sv'
@@ -27,4 +31,6 @@ defaultContentLanguage = 'sv'
     languageName = 'Svenska'
     weight = 1
     [languages.sv.params]
+      description = "DragosLarm AB - Safeguarding Aerogen Environments"
+      keywords = "Dragskåp, larm Dragbänk, larm, Dragbänkslarm, Dragskapslarm, Ventilationslarm, övervakning, flöde, luftflöde, ventilation, ventilationsövervakning, luftkanal, ventilerad förvaring, larma, luftflöde, giftig, säkerhet"
       flag = '🇸🇪'
