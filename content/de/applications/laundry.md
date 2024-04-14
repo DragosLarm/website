@@ -5,7 +5,7 @@ weight = 2
 
 ![laundry](/applications/2.jpg)
 
-Öffentliche Waschräume in Mehrfamilienhäusern oder Waschsalons:
+## Öffentliche Waschräume in Mehrfamilienhäusern oder Waschsalons:
 
 Eine gute Belüftung ist sowohl für die Schaffung eines angenehmen Raumklimas in öffentlichen Waschküchen als auch vor allem zur Vermeidung von Feuchtigkeitsschäden in Gebäuden und an Maschinen unerlässlich. Zudem trocknet die Wäsche in feuchter Umgebung deutlich langsamer.
 

@@ -5,7 +5,7 @@ weight = 2
 
 ![laundry](/applications/2.jpg)
 
-Allmänna tvättstugor i flerfamiljshus:
+## Allmänna tvättstugor i flerfamiljshus:
 
 God ventilation i tvättstugan är grundläggande för att både skapa en trivsam miljö i allmänna tvättstugor men framför allt också förebygga fuktskador i byggnader och på maskiner. Dessutom torkar tvätten i fuktiga miljöer mycket långsammare.
 

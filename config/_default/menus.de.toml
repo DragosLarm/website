@@ -17,3 +17,9 @@ weight = 30
 name = 'Über uns'
 pageRef = 'about'
 weight = 40
+
+[[main]]
+name = 'Vertriebspartner gesucht'
+pageRef = 'distributors'
+weight = 40
+

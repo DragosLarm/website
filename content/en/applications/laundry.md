@@ -5,7 +5,7 @@ weight = 2
 
 ![laundry](/applications/2.jpg)
 
-Public laundry rooms in apartment buildings:
+## Public laundry rooms in apartment buildings:
 
 Good ventilation in the laundry room is essential to both create a pleasant environment in public laundry rooms, but above all also to prevent moisture damage in buildings and on machines. In addition, laundry dries much more slowly in humid environments.
 

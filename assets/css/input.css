@@ -17,15 +17,15 @@ p {
 }
 
 .content h2 {
-  @apply mt-3 text-xl font-bold text-grey-800;
+  @apply mt-3 mb-1 text-xl font-bold text-grey-800;
 }
 
 .content h3 {
-  @apply mt-3 text-lg font-bold text-grey-800;
+  @apply mt-3 mb-1 text-lg font-bold text-grey-800;
 }
 
-.document h2 {
-  @apply mb-3 text-xl font-bold text-grey-800;
+.content a {
+    @apply font-bold text-grey-700;
 }
 
 .toc-link {
