@@ -4,4 +4,6 @@
   {{ if .IsHome }}{{ site.Title }}{{ else }}{{ printf "%s | %s" .Title
   site.Title }}{{ end }}
 </title>
+<meta name="description" content="{{ .Language.Params.description }}" />
+<meta name="keywords" content="{{ .Language.Params.keywords }}" />
 {{ partialCached "head/css.html" . }} {{ partialCached "head/js.html" . }}
