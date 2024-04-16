@@ -10,7 +10,7 @@ Alarms visually and acoustically in the event of malfunctions in the protective 
 
 <!--more-->
 
-### Egenskaper:
+### Characteristics:
 
 - Measuring range 0.1-1.0 m/s
 - Visual and acoustic alarm.
