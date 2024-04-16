@@ -3,6 +3,8 @@ title = 'DragosLarm AB'
 
 defaultContentLanguage = 'sv'
 
+enableRobotsTXT = true
+
 [languages]
   [languages.de]
     contentDir = 'content/de'
