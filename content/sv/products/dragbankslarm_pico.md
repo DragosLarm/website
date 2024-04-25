@@ -1,6 +1,6 @@
 +++
 title = 'Dragbänkslarm 2055'
-image = '/products/dragbankslarm/image.png'
+image = '/products/dragbankslarm/image.webp'
 weight = 20
 +++
 

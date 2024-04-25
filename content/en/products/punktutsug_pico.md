@@ -1,6 +1,6 @@
 +++
 title = 'Dragos 2021'
-image = '/products/punktutsug/image.png'
+image = '/products/punktutsug/image.webp'
 weight = 30
 +++
 

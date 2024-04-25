@@ -1,6 +1,6 @@
 +++
 title = 'Dragos 2054'
-image = '/products/dragskapslarm/image.png'
+image = '/products/dragskapslarm/image.webp'
 weight = 10
 +++
 

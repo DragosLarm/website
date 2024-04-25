@@ -1,7 +1,7 @@
 +++
 title = 'Dragskåpslarm 2054'
 aliases = ['/1 dragskåpslarm'] # Old website page
-image = '/products/dragskapslarm/image.png'
+image = '/products/dragskapslarm/image.webp'
 weight = 10
 +++
 

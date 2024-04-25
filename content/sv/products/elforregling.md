@@ -1,6 +1,6 @@
 +++
 title = 'Elförreglering 2012R24V'
-image = '/products/elforregling/placeholder.png'
+image = '/products/elforregling/placeholder.webp'
 weight = 40
 +++
 
